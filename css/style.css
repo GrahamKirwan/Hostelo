@@ -230,7 +230,7 @@ img {
 
 
 
-/* mobile */
+/* mobile query */
 @media (max-width: 500px) {
     .navbar {
         height: 110px;

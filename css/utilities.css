@@ -60,9 +60,11 @@
     color: #333;
 }
 
-.bg-primary a, .btn-primary a, .bg-secondary a, .btn-secondary a, .bg-dark a, .btn-dark a {
-    color: #fff
+.text-primary {
+    color: var(--primary-color);
 }
+
+
 
 /* text sizes */
 .lead {
@@ -85,6 +87,29 @@
     font-size: 4rem;
 }
 
+/* alert    */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
+/* layout */
 
 .flex {
     display: flex;
